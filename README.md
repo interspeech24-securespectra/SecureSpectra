@@ -8,6 +8,7 @@ In the very last years, sophisticated generative models that can replicate a per
 
 ## Multangular Strategy Against Digital Impersonation
 SecureSpectra represents a paradigm shift in combating DeepFake threats. Unlike discriminator-like DF classifiers, it employs an orthogonal approach, a confidential signature model, that incorporates neural network processing and differential privacy. At its core, it exploits the inherent weakness of DF models in generating HF signals, a discovery that forms the foundation of SecureSpectra's signature embedding technique. By integrating differential privacy, SecureSpectra not only ensures the security of these signatures against reverse engineering but also delicately balances the trade-off between security enhancement and performance integrity. The system architecture is demonstrated in the figure below.
+
 <img src="./figures/model_pipeline2.png" width="400">
 
 
