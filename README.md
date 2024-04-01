@@ -24,8 +24,25 @@ Existing solutions offer using ML classifiers trained to detect whether a provid
 
 <!-- ![](./figures/boxplots/Model_Performances_Boxplots.png) -->
 <img src="./figures/boxplots/Model_Performances_Boxplots.png" width="400">
+
 ##  Advancing the Frontier of Audio Security
 SecureSpectra marks a significant milestone in the journey towards securing digital identities against the ever-growing menace of DeepFake technologies. By introducing an innovative signature embedding mechanism, this research opens new avenues for protecting audio content from cloning attacks. The success of SecureSpectra not only enhances current defense mechanisms but also sets the stage for future explorations in multi-task learning and verification modules for enhanced security.
+
+## How to Use
+
+To install the TrustShield as a github project:
+```bash
+git clone https://github.com/interspeech24-securespectra/SecureSpectra
+```
+
+### Required Packages
+To run the necessary packages, build a conda environment from the [environment.yml]([environment.yml]) file as in:
+```bash
+conda env create -f environment.yml
+conda activate SecSpec
+```
+
+Then run the ipynb files in experiments folder. After installing the datasets (Mozilla CommonVoice, VoxCeleb, LibriSpeech).
 
 ## Citation
 For more technical details, please see:
