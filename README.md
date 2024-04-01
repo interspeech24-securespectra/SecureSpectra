@@ -47,3 +47,69 @@ Then run the ipynb files in experiments folder. After installing the datasets (M
 ## Citation
 For more technical details, please see:
 TBD: Submitted and Under Review
+
+## References for Benchmark Models
+
+```bibtex
+@inproceedings{mun23towards,
+  author={Sung Hwan Mun and Hye-jin Shim and Hemlata Tak and Xin Wang and Xuechen Liu and Md Sahidullah and Myeonghun Jeong and Min Hyun Han and Massimiliano Todisco and Kong Aik Lee and Junichi Yamagishi and Nicholas Evans and Tomi Kinnunen and Nam Soo Kim and Jee-weon Jung},
+  title={{Towards Single Integrated Spoofing-aware Speaker Verification Embeddings}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={3989--3993},
+  doi={10.21437/Interspeech.2023-1402}
+}
+@inproceedings{kawa23b_interspeech,
+  author={Piotr Kawa and Marcin Plata and Michał Czuba and Piotr Szymański and Piotr Syga},
+  title={{Improved DeepFake Detection Using Whisper Features}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={4009--4013},
+  doi={10.21437/Interspeech.2023-1537}
+}
+```
+
+## References for DeepFake Models
+```bibtex
+@misc{whisperspeech,
+  author = {{WhisperSpeech}},
+  note = {\textt{\url{https://github.com/collabora/WhisperSpeech}}},
+}
+
+@article{openvoice,
+  title={OpenVoice: Versatile Instant Voice Cloning},
+  author={Qin, Zengyi and Zhao, Wenliang and Yu, Xumin and Sun, Xin},
+  journal={arXiv preprint arXiv:2312.01479},
+  year={2023}
+}
+@misc{coqui,
+  author = {{Coqui.ai}},
+  note = {\textt{\url{https://github.com/coqui-ai/TTS}}},
+}
+```
+
+## References for The Datasets
+```bibtex
+@article{nagrani2017voxceleb,
+  title={Voxceleb: a large-scale speaker identification dataset},
+  author={Nagrani, Arsha and Chung, Joon Son and Zisserman, Andrew},
+  journal={arXiv preprint arXiv:1706.08612},
+  year={2017}
+}
+
+@inproceedings{panayotov2015librispeech,
+  title={Librispeech: an asr corpus based on public domain audio books},
+  author={Panayotov, Vassil and Chen, Guoguo and Povey, Daniel and Khudanpur, Sanjeev},
+  booktitle={2015 IEEE international conference on acoustics, speech and signal processing (ICASSP)},
+  pages={5206--5210},
+  year={2015},
+  organization={IEEE}
+}
+@article{ardila2019common,
+  title={Common voice: A massively-multilingual speech corpus},
+  author={Ardila, Rosana and Branson, Megan and Davis, Kelly and Henretty, Michael and Kohler, Michael and Meyer, Josh and Morais, Reuben and Saunders, Lindsay and Tyers, Francis M and Weber, Gregor},
+  journal={arXiv preprint arXiv:1912.06670},
+  year={2019}
+}
+```
+
